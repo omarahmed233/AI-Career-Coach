@@ -61,7 +61,9 @@ The user uploads or provides their CV, selects or enters a target role, and subm
 
 # 📸 Demo
 
-Add screenshots, GIFs, or a demo video.
+![Screenshot 1](Screenshot%202026-10-08%20214901.png)
+![Screenshot 2](Screenshot%202026-10-08%20215105.png)
+![Screenshot 3](Screenshot%202026-10-08%20215114.png)
 
 ---
 
