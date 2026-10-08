@@ -1,0 +1,43 @@
+TECH TARGET ROLE SKILL PROFILES
+Purpose: Retrieval reference for comparing explicitly evidenced CV skills with a target role.
+
+MATCHING RULES
+- Retrieve the profile matching the supplied target role; use the job description first when one is available.
+- Treat CORE SKILLS as common baseline expectations, not automatic requirements in every vacancy. Treat STACK-SPECIFIC SKILLS as conditional on the job description.
+- Mark each skill MATCHED only when the CV explicitly names it or gives clear evidence of using or learning it in projects, training, coursework, or achievements.
+- A related skill is PARTIAL only when it is genuinely transferable; do not claim it is equivalent. Otherwise mark NOT EVIDENCED.
+- Never infer experience, proficiency, certifications, years, or skills from a title or from general knowledge.
+- Return the CV evidence for every match. Keep role requirements separate from CV skills.
+
+ROLE_ID: software_engineer
+TARGET_ROLE: Software Engineer / Software Developer
+CORE_SKILLS: Programming in a job-relevant language; data structures and algorithms; software design; debugging; testing; version control (Git); requirements analysis; maintainable code; collaboration.
+STACK_SPECIFIC: SQL and databases; APIs; cloud; frontend or backend frameworks; operating systems and networking, depending on the job.
+SOURCE: O*NET Software Developers, 15-1252.00 — https://www.onetonline.org/link/summary/15-1252.00
+
+ROLE_ID: frontend_developer
+TARGET_ROLE: Front-End Developer / Web Developer
+CORE_SKILLS: HTML; CSS; JavaScript or TypeScript; responsive user interfaces; browser fundamentals; accessibility; frontend testing; Git; API integration.
+STACK_SPECIFIC: React, Angular, or Vue; state management; build tools; UI frameworks, according to the job.
+SOURCE: O*NET Web Developers, 15-1254.00 — https://www.onetonline.org/link/details/15-1254.00
+
+ROLE_ID: backend_developer
+TARGET_ROLE: Back-End Developer / Server-Side Developer
+CORE_SKILLS: Programming in a job-relevant language; server-side application design; APIs; database fundamentals; authentication and authorization; testing; debugging; Git.
+STACK_SPECIFIC: Java/Spring; Python/Django or FastAPI; C#/.NET; JavaScript/Node.js; Go; SQL or NoSQL databases; Docker and cloud, according to the job.
+SOURCE: O*NET Software Developers, 15-1252.00 — https://www.onetonline.org/link/summary/15-1252.00
+
+ROLE_ID: data_scientist
+TARGET_ROLE: Data Scientist
+CORE_SKILLS: Python or R; SQL; statistics; data cleaning; exploratory data analysis; data visualization; machine learning; model evaluation; communicating findings.
+STACK_SPECIFIC: pandas; scikit-learn; PyTorch or TensorFlow; Spark; cloud data tools; BI tools, according to the job.
+SOURCE: O*NET Data Scientists, 15-2051.00 — https://www.onetonline.org/link/summary/15-2051.00
+
+ROLE_ID: cybersecurity_analyst
+TARGET_ROLE: Cybersecurity Analyst / Information Security Analyst
+CORE_SKILLS: Security fundamentals; networking and operating systems; security monitoring; vulnerability assessment; incident response; access control; risk analysis; clear documentation.
+STACK_SPECIFIC: SIEM tools; penetration testing; cloud security; scripting; compliance frameworks; endpoint or network security products, according to the job.
+SOURCE: O*NET Information Security Analysts, 15-1212.00 — https://www.onetonline.org/link/summary/15-1212.00
+
+DATA NOTE
+These are compact general role profiles for retrieval, not universal job requirements. Technologies and hiring requirements vary by employer, seniority, location, industry, and date. O*NET descriptions and employer-posting skill data are references; a supplied job description takes precedence.
