@@ -80,6 +80,7 @@ I gained hands-on experience integrating external APIs, RAG-based retrieval, and
 - Add evidence and source sections so users can see why each skill was matched or marked as needed.
 - Expand the role database and improve retrieval so it returns the correct profile consistently.
 - Add secure deployment, request validation, and clearer error handling for production use.
+- Support roadmap customization based on the user's target role, career goals, preferred learning pace, and deadline.
 
 ---
 
